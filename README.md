@@ -1,8 +1,8 @@
 # FWRISC-S 
 
+<div class="note"></div>
 Note: FWRISC-S is a variant of the FWRISC core created for a soft-core content. 
 Please see https://github.com/mballance/fwrisc for the master repository
-{: .alert .alert-info}
 
 FWRISC-S is a _Featherweight RISC-V_ implementation of the RV32IMC instruction set with
 IoT-appropriate security features. This implementation supports the integer instructions,
