@@ -1,5 +1,7 @@
 # FWRISC
 
+
+
 FWRISC-S is a _Featherweight RISC-V_ implementation of the RV32IMC instruction set with
 IoT-appropriate security features. This implementation supports the integer instructions,
 registers, CSRs, and exceptions as required by the RISC-V spec.
@@ -23,7 +25,7 @@ It also supports the [Zephyr](https://www.zephyrproject.org/) RTOS.
 - ECALL/EBREAK/ERET instrutions
 - Support for address-alignment exceptions
 
-## SEcurity Features
+## Security Features
 FWRISC-S implements Data Execution Prevention, as a way to prevent arbitrary code
 execution. While more-complex protection techniques are appropriate for more-complex
 systems, IoT systems typically run a fixed program that can be easily protected in
@@ -34,7 +36,7 @@ programs CSRs to only allow execution in the text section of the image. See
 [Zephyr](doc/fwrisc_zephyr.md) for more information.
 
 ## Resource Stats
-The bare FWRISC-S 1.0.0 core consumes the following resources:
+The bare FWRISC-S 2.0.0 core consumes the following resources:
 
 <table border="1">
 <tr>
